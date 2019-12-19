@@ -1,0 +1,23 @@
+1) Para construir el ejecutable vale con ejecutar en la terminal de linux el siguiente comando:
+$ make
+
+2) Para ejecutar el ejecutable vale o bien con ejecutar la sentencia:
+$ make run_examen
+   o bien:
+$ ./examen
+
+3) Para pasar valgrind sobre el ejecutable vale o bien con ejecutar la sentencia:
+$ make valgrindexamen
+   o bien:
+% valgrind -v --leak-check=full ./examen
+
+4) Para eliminar los ejecutables, todos los .dot y todos los .o vale con ejecutar en la terminal:
+$ make clean
+
+5) En caso de que quiera crear el pdf del .dot del automata para representarlo ejecutar: 
+$ dot -Tpdf nombre_dot.dot -o nombre_pdf.pdf
+
+*Se adjuntan los pdfs con las representaciones correspondientes al automata, al automata transformado y al automata minimizado.
+    Automata => af1.pdf
+    Transformado => Trans.pdf 
+    Minimizado => Min.pdf
